@@ -26,9 +26,9 @@ public class CalculatorGUI extends JFrame implements ActionListener {
         display = new JTextField();
         display.setBounds(50, 25, 300, 50);
         display.setEditable(false);
-        display.setBackground(Color.DARK_GRAY);
-        display.setForeground(Color.BLACK);
-        display.setFont(new Font("Arial", Font.ITALIC, 30));
+        display.setBackground(Color.BLACK);
+        display.setForeground(Color.white);
+        display.setFont(new Font("Arial", Font.PLAIN, 30));
         this.add(display);
 
         // Initialize all buttons
