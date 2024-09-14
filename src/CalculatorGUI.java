@@ -4,13 +4,13 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class CalculatorGUI extends JFrame implements ActionListener {
-    private JTextField display;
-    private JButton[] numberButtons = new JButton[10];
-    private JButton[] functionButtons = new JButton[12];
-    private JButton addButton, subButton, mulButton, divButton;
-    private JButton decButton, equButton, delButton, clrButton, negButton, sqrtButton, percentButton;
+    private final JTextField display;
+    private final JButton[] numberButtons = new JButton[10];
+    private final JButton[] functionButtons = new JButton[12];
+    private final JButton addButton, subButton, mulButton, divButton;
+    private final JButton decButton, equButton, delButton, clrButton, negButton, sqrtButton, percentButton;
 
-    private JPanel panel;
+    private final JPanel panel;
 
     private double num1 = 0, num2 = 0, result = 0;
     private char operator;
